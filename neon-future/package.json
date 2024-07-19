@@ -1,0 +1,28 @@
+{
+  "name": "neon-future",
+  "displayName": "Neon Future",
+  "description": "Futuristic Dark vscode color theme",
+  "publisher": "deans4",
+  "icon": "icon.png",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Future",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neon Future-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dpschu2/Neon-Future.git"
+  },
+  "homepage": "https://github.com/Dpschu2/Neon-Future?tab=readme-ov-file#future-dark-readme"
+}

@@ -1,4 +1,4 @@
-# future-dark README
+# Neon Future README
 
 ![Neon Future Example](screen.png)
 

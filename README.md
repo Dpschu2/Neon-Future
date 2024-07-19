@@ -3,34 +3,40 @@
 ![Neon Future Example](screen.png)
 
 -I also used the APC Customize and Bearded Icons extensions with these settings:
-
-"workbench.iconTheme": "bearded-icons",
-"window.titleBarStyle": "native",
-"window.customTitleBarVisibility": "never",
-"apc.electron": {
-	"trafficLightPosition": {
-		"x": 7,
-		"y": 5
+{
+	"editor.fontFamily": "\"Fira Code\",\"mononoki Nerd Font\", Menlo, Monaco, 'Courier New', monospace",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorBlinking": "expand",
+	"workbench.iconTheme": "bearded-icons",
+    "workbench.layoutControl.enabled": false,
+	"window.commandCenter": false,
+	"window.titleBarStyle": "native",
+	"window.customTitleBarVisibility": "never",
+	"apc.electron": {
+		"trafficLightPosition": {
+			"x": 7,
+			"y": 5
+		},
+		"backgroundColor": "rgba(123, 123, 123, 0.5)",
+		"frame": false,
+		"titleBarStyle": "hidden",
+		"vibrancy": "ultra-dark",
+		"opacity": 0.98,
+		"visualEffectState": "active"
 	},
-	"backgroundColor": "rgba(123, 123, 123, 0.5)",
-	"frame": false,
-	"titleBarStyle": "hidden",
-	"vibrancy": "ultra-dark",
-	"opacity": 0.98,
-	"visualEffectState": "active"
-},
-"apc.header": {
-	"height": 37
-},
-"apc.sidebar.titlebar": {
-	"height": 20,
-	"fontSize": 12
-},
-"apc.activityBar": {
-	"size": 40,
-	"itemSize": 35,
-	"itemMargin": 0,
-	"position": "top"
+	"apc.header": {
+		"height": 37
+	},
+	"apc.sidebar.titlebar": {
+		"height": 20,
+		"fontSize": 12
+	},
+	"apc.activityBar": {
+		"size": 40,
+		"itemSize": 40,
+		"itemMargin": 0,
+		"position": "top"
+	}
 }
 
 ## Working with Markdown

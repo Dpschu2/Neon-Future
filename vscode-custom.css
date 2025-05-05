@@ -62,3 +62,15 @@ footer.statusbar {
 .monaco-workbench {
     background-color: transparent !important;
 }
+.monaco-workbench .tabs-container>.tab.active,
+.monaco-workbench .tabs-container>.tab.selected {
+    background: rgba(0, 150, 255, 0.30) !important;
+}
+.monaco-breadcrumbs .folder.monaco-breadcrumb-item {
+    color: #15a8ff !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+[id="workbench.parts.sidebar"] > div > div > div:first-child > div {
+    background-color: #000000 !important;
+}

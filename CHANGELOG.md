@@ -4,6 +4,9 @@ All notable changes to the "neon-future" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.6
+- Less custom css
+
 ## 0.0.5
 - Fixes for Cursor editor layout
 
